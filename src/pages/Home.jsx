@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import { Suspense,  useRef, useState } from "react";
+import { Suspense,   useState } from "react";
 
 
 import { HomeInfo, Loader } from "../components";
