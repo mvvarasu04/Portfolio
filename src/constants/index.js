@@ -3,6 +3,7 @@ import {
     car,
     contact,
     css,
+    cv,
     git,
     github,
     html,
@@ -123,7 +124,7 @@ export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '/8681921236',
+        link: 'tel:8681921236',
     },
     {
         name: 'GitHub',
@@ -134,7 +135,14 @@ export const socialLinks = [
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/veera-vanniya-arasu-m-18595a377',
+    },
+    {
+        name: 'Resume',
+        iconUrl: cv,
+        link: '/Resume.pdf', // This will now point to the public file
+        download: true,      // Add this property to indicate download
     }
+
 ];
 
 export const projects = [

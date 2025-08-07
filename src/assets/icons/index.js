@@ -1,4 +1,5 @@
 import css from './css.svg'
+import cv from './cv.svg'
 import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
@@ -21,11 +22,11 @@ import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
-import soundon from './soundon.png'
-import soundoff from './soundoff.png'
+
 
 export {
     css,
+    cv,
     express,
     git,
     github,
@@ -51,6 +52,5 @@ export {
     threads,
     arrow,
     contact,
-    soundon,
-    soundoff
+    
 }
